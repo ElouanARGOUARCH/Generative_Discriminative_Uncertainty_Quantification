@@ -1,0 +1,8 @@
+jupyter
+torch
+pyro-ppl
+matplotlib
+scipy
+torchvision
+scikit-learn
+tqdm
