@@ -97,6 +97,7 @@ class DiagGaussianMixtEM(torch.nn.Module):
                 loss_values.append(loss)
         if trace_loss:
             return loss_values
+
 class ConditionalRealNVPLayer(torch.nn.Module):
     def __init__(self, sample_dim, label_dim, reference_log_prob, **kwargs):
         super().__init__()
